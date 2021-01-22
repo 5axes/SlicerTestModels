@@ -5,6 +5,7 @@
 //this narrow channel.
 channel_width = 0.5;
 radius = 10;
+$fn=100;
 
 difference() {
 	cylinder(r=radius, h=4);
