@@ -19,7 +19,7 @@ filenames       | Files with strange file names. The file names have special cha
 flow            | Real-world tests to see if the printer regulates its flow well.
 infill          | Models containing various shapes for infill to print in. These may contain thin pieces or just various shapes that test the order in which lines are printed.
 multi_extrusion | Models that are intended to print with multiple extruders. Tests adhesion between adjacent parts and nozzle switching strategies.
-my              | Personal projects that I designed and needed to print once upon a time. These now serve as real-world examples to me.
+Ghostkeeper     | Ghostkeeper projects that he designed and needed to print once upon a time. These now serve as examples.
 planning        | Models with lots of different parts to test whether they are printed in a logical order and whether finding that order is in any way performant. Warning: Slicing these may take a long time with some slicers.
 polytest        | Models that are aimed at testing as many things as possible in one short print. These prints are not meant for slicing but for printing.
 skin            | Models with various shapes of skin, layers of skin or thicknesses of skin, to test skin generation. With skin, I mean the part at the top and bottom of the model.
