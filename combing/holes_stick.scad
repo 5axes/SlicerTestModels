@@ -1,3 +1,4 @@
+$fn=100;
 num_holes = 5;
 hole_radius = 3;
 width = 10;
@@ -18,14 +19,11 @@ module holesStick() {
 			}
 		}
 		for(x = [width:(sqrt(2) * side_length - 20) / (num_holes - 1):length - width]) {
-			translate([x, 0, 0]) {
-				cylinder(r = hole_radius, h = height, $fn = 30); //The holes.
+			translate([x, 0, -1]) {
+				cylinder(r = hole_radius, h = height+2); //The holes.
 			}
 		}
 	}
 }
 
 holesStick();
-//translate([length, 0, 0]) {
-//	holesStick();
-//}
