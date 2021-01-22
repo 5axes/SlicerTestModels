@@ -24,10 +24,12 @@ difference() {
 			}
 		}
 	}
-	translate([-10, 15, 40]) {
-		sphere(r=5);
-	}
-	translate([10, 15, 40]) {
-		sphere(r=5);
-	}
+    color("Blue",0.5) {
+        translate([-10, 15, 40]) {
+            sphere(r=10);
+        }
+        translate([10, 15, 40]) {
+            sphere(r=8);
+        }
+    }
 }
