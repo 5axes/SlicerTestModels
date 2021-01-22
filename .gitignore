@@ -1,6 +1,9 @@
 #Compiled SCAD models.
 *.stl
 
+#Repaired STL models.
+*.obj
+
 #Files from other people. They aren't mine to publish but I like to keep them in the same folder.
 other_people
 
@@ -14,4 +17,4 @@ test.*
 
 
 
-*.obj
+
