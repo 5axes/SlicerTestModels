@@ -8,7 +8,6 @@ This repository contains the following categories of models:
 
 Category        | Description
 --------------- | -----------
-3mf             | The 3MF file format. Tests if we can load these files properly.
 adhesion        | Testing print bed adhesion features, such as brim, skirt and raft.
 basic           | Generic shapes, mostly geometric. These models may be used to test simple stuff when you just need a bit of infill, or to test front-end features such as linear transformations.
 bridging        | Models featuring lots of overhangs. The overhangs may get bridged properly if the slicer does a good job to orient the skin lines above the bridge properly.
@@ -21,7 +20,6 @@ flow            | Real-world tests to see if the printer regulates its flow well
 infill          | Models containing various shapes for infill to print in. These may contain thin pieces or just various shapes that test the order in which lines are printed.
 multi_extrusion | Models that are intended to print with multiple extruders. Tests adhesion between adjacent parts and nozzle switching strategies.
 my              | Personal projects that I designed and needed to print once upon a time. These now serve as real-world examples to me.
-obj             | The Wavefront OBJ file format. Tests if we can load these files properly.
 planning        | Models with lots of different parts to test whether they are printed in a logical order and whether finding that order is in any way performant. Warning: Slicing these may take a long time with some slicers.
 polytest        | Models that are aimed at testing as many things as possible in one short print. These prints are not meant for slicing but for printing.
 skin            | Models with various shapes of skin, layers of skin or thicknesses of skin, to test skin generation. With skin, I mean the part at the top and bottom of the model.
