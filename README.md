@@ -1,6 +1,6 @@
 Slicer Test Models
 ==================
-This is a collection of test models that I've been using to test slicers and 3D printers with, in particular [Cura](https://github.com/Ultimaker/Cura). It contains models aimed at testing specific features of a slicer, as well as some basic models for testing simple things and some personal projects that serve as real-world examples.
+This is a collection of test models initialy made by [Ghostkeeper]()https://github.com/Ghostkeeper/SlicerTestModels that I've been using to test slicers and 3D printers with, in particular [Cura](https://github.com/Ultimaker/Cura). It contains OpenSCAD (Exclusively) models aimed at testing specific features of a slicer, as well as some basic models for testing simple things and some personal projects that serve as real-world examples.
 
 Categories
 ----------
@@ -14,8 +14,6 @@ bridging        | Models featuring lots of overhangs. The overhangs may get brid
 broken          | Model files that contain faults. They may have syntax mistakes, be corrupted or have non-manifold surfaces. They may not be watertight or have extra geometry inside them. This is intended to test the robustness of the slicer.
 calibration     | Calibration test part. Models definition to create test part usualy call as Tower : Temp Tower , Retract tower etc.
 combing         | Aimed at testing how well the nozzle avoids going through walls unnecessary. This has models both to test collision avoidance (avoiding going from outside to inside) and maze-like internal shapes (avoiding going from inside to outside).
-cura_projects   | Cura project files (based on 3MF). These are meant to test Cura's project file reading, version upgrade and to see whether the profiles were preserved all right.
-filenames       | Files with strange file names. The file names have special characters or are located in folders that have special characters.
 flow            | Real-world tests to see if the printer regulates its flow well.
 infill          | Models containing various shapes for infill to print in. These may contain thin pieces or just various shapes that test the order in which lines are printed.
 multi_extrusion | Models that are intended to print with multiple extruders. Tests adhesion between adjacent parts and nozzle switching strategies.
