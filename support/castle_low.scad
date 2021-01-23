@@ -29,7 +29,7 @@ translate([15, 0, 10]) {
 	tower(r=10, h=10, thickness=2);
 }
 for(i = [0:8]) {
-	rotate([0, 0, i * 138]) {
+	rotate([0, 0, i * 153]) {
 		translate([14.5, -1, 4 + i * 2.5]) {
 			cube(2);
 		}
