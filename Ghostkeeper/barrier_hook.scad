@@ -29,11 +29,15 @@ hull() {
 		corner();
 	}
 }
+difference(){
 hull() {
 	spaced_corner();
 	translate([length + thickness, 0, 0]) {
 		corner();
 	}
+}
+translate([20, 0, 10]) rotate(90, [1, 0, 0]) cylinder(h=15, r1=3, r2=3, center=true);
+translate([50, 0, 20]) rotate(10, [0, 1, 0]) cube(size = [60,40,10], center = true);
 }
 translate([thickness + steel_thickness, 0, 0]) {
 	hull() {
