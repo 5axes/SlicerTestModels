@@ -1,6 +1,6 @@
 Slicer Test Models
 ==================
-This is a collection of test models initialy made by [Ghostkeeper]()https://github.com/Ghostkeeper/SlicerTestModels that I've been using to test slicers and 3D printers with, in particular [Cura](https://github.com/Ultimaker/Cura). It contains OpenSCAD (Exclusively) models aimed at testing specific features of a slicer, as well as some basic models for testing simple things and some personal projects that serve as real-world examples.
+This is a collection of test models initialy made by [Ghostkeeper](https://github.com/Ghostkeeper/SlicerTestModels) that I've been using to test slicers and 3D printers with, in particular [Cura](https://github.com/Ultimaker/Cura). It contains OpenSCAD (Exclusively) models aimed at testing specific features of a slicer, as well as some basic models for testing simple things and some personal projects that serve as real-world examples.
 
 Categories
 ----------
